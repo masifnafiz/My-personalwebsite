@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get"/main/personal",  {:controller =>  "exams", :action => "personal"}
   get"/main/sports",    {:controller =>  "exams", :action => "sports"}
   get"/main/hobbies",   {:controller =>  "exams", :action => "hobbies"}
+  get"/main/location",   {:controller =>  "exams", :action => "location"}
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

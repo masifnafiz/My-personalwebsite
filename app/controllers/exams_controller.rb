@@ -11,4 +11,7 @@ class ExamsController < ApplicationController
     def hobbies
         render "hobbies"
     end
+    def location
+        render "location"
+    end
 end
